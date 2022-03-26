@@ -1,0 +1,51 @@
+.add-container {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.add-container h1 {
+  padding: 10px;
+}
+.add-input-container {
+  background-color: white;
+  box-shadow: 1px 2px 5px lightslategray;
+}
+.add-input-container form {
+  height: 50vh;
+  width: 40vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.add-input-container form label {
+  align-self: start;
+  margin-left: 12.3vw;
+}
+.add-input-container input {
+  margin: 2vh;
+  height: 3vh;
+  width: 15vw;
+  border: 1px solid gray;
+}
+input:focus {
+  outline-color: deepskyblue !important;
+}
+#btn-update {
+  height: 5vh;
+  width: 9vw;
+  margin: 2px;
+}
+#btn-cancel {
+  height: 5vh;
+  width: 4vw;
+  margin: 2px;
+  background-color: red;
+}
+#btn-update:hover {
+  background-color: rgb(90, 90, 90);
+}
+#btn-cancel:hover {
+  background-color: rgb(196, 97, 97);
+}

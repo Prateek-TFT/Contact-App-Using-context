@@ -1,0 +1,63 @@
+.add-container {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.add-container-top h1 {
+  padding: 10px;
+  margin-left: 10vw;
+}
+.add-container-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 40vw;
+}
+.add-container-top button {
+  height: 5vh;
+  background-color: black;
+  color: white;
+  border: 0;
+  border-radius: 5px;
+}
+.add-container-top button:hover {
+  background-color: rgba(0, 0, 0, 0.596);
+}
+.add-input-container {
+  background-color: white;
+  box-shadow: 1px 2px 5px lightslategray;
+}
+.add-input-container form {
+  height: 50vh;
+  width: 40vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.add-input-container form label {
+  align-self: start;
+  margin-left: 12.3vw;
+}
+.add-input-container input {
+  margin: 2vh;
+  height: 3vh;
+  width: 15vw;
+  border: 1px solid gray;
+}
+.add-input-container button {
+  height: 5vh;
+  width: 7vw;
+  margin-top: 1vh;
+  color: white;
+  background-color: black;
+  border: 0;
+  border-radius: 5px;
+}
+input:focus {
+  outline-color: deepskyblue !important;
+}
+.add-input-container button:hover {
+  background-color: rgba(0, 0, 0, 0.596);
+}

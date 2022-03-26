@@ -1,0 +1,55 @@
+.items {
+  height: 8%;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  box-shadow: 1px 1px 5px gray;
+}
+.items p {
+  font-size: medium;
+  padding: 0%;
+  margin: 0%;
+}
+#disp-Id {
+  width: 20%;
+  margin-left: 2.5%;
+}
+#disp-Name {
+  width: 80%;
+  margin-left: 7.5%;
+  overflow-x: auto;
+}
+#disp-Email {
+  width: 100%;
+  margin-left: 2%;
+  overflow-x: auto;
+}
+#disp-Phone {
+  width: 90%;
+  margin-left: 2%;
+  overflow-x: auto;
+}
+#edit-button {
+  height: 90%;
+  background-color: rgb(0, 119, 255);
+  color: white;
+  width: 5vw;
+  border: 0;
+  margin: 2px;
+  border-radius: 2px;
+}
+#delete-button {
+  height: 90%;
+  border-radius: 2px;
+  border: 0;
+  background-color: red;
+  color: white;
+  width: 5vw;
+  margin-right: 10px;
+}
+#edit-button:hover {
+  background-color: rgb(99, 167, 245);
+}
+#delete-button:hover {
+  background-color: rgb(255, 136, 136);
+}

@@ -1,0 +1,17 @@
+header {
+  display: flex;
+  height: 50px;
+  background-color: rgb(37, 36, 36);
+  color: white;
+  align-items: center;
+}
+p {
+  margin-left: 20px;
+  font-size: x-large;
+}
+
+@media screen and (max-width: 184px) {
+  p {
+    font-size: larger;
+  }
+}
